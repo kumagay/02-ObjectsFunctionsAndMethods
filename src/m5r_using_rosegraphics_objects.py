@@ -136,8 +136,10 @@ def example3():
     # Has  fill_color  instance variable.
     # -------------------------------------------------------------------------
     center_point = rg.Point(300, 100)
+    center_point.x
     radius = 50
     circle = rg.Circle(center_point, radius)
+    circle.attach_to(window)
     circle.fill_color = 'green'
     circle.attach_to(window)
 
